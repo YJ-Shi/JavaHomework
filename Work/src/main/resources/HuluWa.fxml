@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="girdPane" maxHeight="600.0" maxWidth="700.0" minHeight="600.0" minWidth="700.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
+  <columnConstraints>
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="150.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+      <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="NEVER" />
+  </rowConstraints>
+   <children>
+      <ImageView fitHeight="645.0" fitWidth="824.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+         <image>
+            <Image url="@image/background.jpg" />
+         </image>
+      </ImageView>
+      <Label prefHeight="65.0" prefWidth="150.0" text="enter space to start" GridPane.columnIndex="12" GridPane.rowIndex="10">
+         <textFill>
+            <LinearGradient endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#b0a323" />
+                  <Stop color="#ffd400" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label prefHeight="65.0" prefWidth="150.0" text="enter 'L' to replay" GridPane.columnIndex="12" GridPane.rowIndex="11">
+         <textFill>
+            <LinearGradient endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#b0a323" />
+                  <Stop color="#ffd400" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label prefHeight="65.0" prefWidth="150.0" text="enter 'R' to save" GridPane.columnIndex="12" GridPane.rowIndex="12">
+         <textFill>
+            <LinearGradient endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#b0a323" />
+                  <Stop color="#ffd400" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="instruction" prefHeight="65.0" prefWidth="150.0" text="Welcome!" GridPane.columnIndex="12">
+         <textFill>
+            <LinearGradient endY="1.0" startY="1.0">
+               <stops>
+                  <Stop color="#b0a323" />
+                  <Stop color="#ffd400" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>
